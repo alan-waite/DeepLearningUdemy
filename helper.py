@@ -18,7 +18,7 @@ def f_prime_x0(x0: np.ndarray, x1: np.ndarray) -> np.ndarray:
 
 
 def f_prime_x1(x0: np.ndarray, x1: np.ndarray) -> np.ndarray:
-    """Derivative of x0."""
+    """Derivative of x1."""
     return -200 * (x0 ** 2 - x1)
 
 
